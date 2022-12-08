@@ -1,0 +1,14 @@
+{
+  "name": "saiproject",
+  "version": "1.0.0",
+  "description": "this is for sai youth narayangarh",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
