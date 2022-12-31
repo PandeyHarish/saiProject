@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sai Youth Narayngarh</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+    <link rel="manifest" href="images/icons/site.webmanifest">
      <!-- jquery -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -22,7 +27,7 @@
 
      <!-- owl caurosel -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- wow js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -30,7 +35,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 
-<body class="font-['Poppins']">
+<body class="font-['Poppins'] scroll-smooth">
     <!-- navbars section -->
     <section >
         <!-- mobile nav -->
@@ -52,13 +57,13 @@
                                 <i class="ri-sun-line inline-block align-bottom " ></i>
                             </a>
                         </li> -->
-                        <li class="p-1" ><a href="#" onclick="mobNav()" class="text-lg ">Home</a> </li>
-                        <li class="p-1"><a href="#" onclick="mobNav()" class="text-lg ">About Us</a></li>
-                        <li class="p-1"><a href="#" onclick="mobNav()" class="text-lg ">Education</a></li>
-                        <li class="p-1"><a href="#" onclick="mobNav()" class="text-lg ">Media</a></li>
-                        <li class="p-1"><a href="#" onclick="mobNav()" class="text-lg ">Recent Activities</a></li>
-                        <li class="p-1"><a href="#" onclick="mobNav()" class="text-lg ">Gallery</a></li>
-                        <li class="p-1"><a href="#" onclick="mobNav()" class="text-lg ">Contact me</a></li>
+                        <li class="p-1 hover:text-orange-600" ><a href="#" onclick="mobNav()" class="text-lg ">Home</a> </li>
+                        <li class="p-1 hover:text-orange-600"><a href="#" onclick="mobNav()" class="text-lg ">About Us</a></li>
+                        <li class="p-1 hover:text-orange-600"><a href="#" onclick="mobNav()" class="text-lg ">Education</a></li>
+                        <li class="p-1 hover:text-orange-600"><a href="#" onclick="mobNav()" class="text-lg ">Media</a></li>
+                        <li class="p-1 hover:text-orange-600"><a href="#" onclick="mobNav()" class="text-lg ">Recent Activities</a></li>
+                        <li class="p-1 hover:text-orange-600"><a href="#" onclick="mobNav()" class="text-lg ">Gallery</a></li>
+                        <li class="p-1 hover:text-orange-600"><a href="#" onclick="mobNav()" class="text-lg ">Contact me</a></li>
                     </ul>
                 </div>
                 
@@ -69,11 +74,39 @@
     <!-- desktop navbar -->
     <section>
         <!-- desktop nav -->
+        <div class="hidden sm:block sticky bg-transparent">
+            <ul class="bg-[#322c6b] bg-opacity-80 p-1 text-right text-gray-800 py-2 px-3 text-2xl">
+                <li class="p-1 inline hover:text-orange-600" ><a href="#"  class="text-lg ">Home</a> </li>
+                <li class="p-1 inline hover:text-orange-600"><a href="#"  class="text-lg ">About Us</a></li>
+                <li class="p-1 inline hover:text-orange-600"><a href="#"  class="text-lg ">Education</a></li>
+                <li class="p-1 inline hover:text-orange-600"><a href="#"  class="text-lg ">Media</a></li>
+                <li class="p-1 inline hover:text-orange-600"><a href="#"  class="text-lg ">Recent Activities</a></li>
+                <li class="p-1 inline hover:text-orange-600"><a href="#"  class="text-lg ">Gallery</a></li>
+                <li class="p-1 inline hover:text-orange-600"><a href="#"  class="text-lg ">Contact me</a></li>
+            </ul>
+        </div>
     </section>
 
     <!-- body caurosel image -->
     <section>
-        
+        <div class= "owl-carousel owl-theme    ">
+            
+            <div class="item ">
+                <img src="images/206.png" alt="picture of sai baba" class=" relative h-[200px] sm:h-full" srcset="">
+                <div class=" absolute pt-20">
+                    <h1 class=" font-extrabold ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quidem.</h1>
+                    <P class="  lg:text-xl ">Get The Best Tasty Food</P>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/362 (1).png" alt="" class="relative h-[200px] sm:h-full" srcset="">
+                <div class=" absolute lg:pt-[380px] hidden lg:block lg:pb-5 text-center">
+                    <h1 class=" font-extrabold text-white sm:text-lg lg:text-6xl ">SEA GRILL</h1>
+                    <P class=" text-black lg:text-xl ">Get Types Of Sea Food</P>
+                </div>
+            </div>
+        </div>
     </section>
 
 

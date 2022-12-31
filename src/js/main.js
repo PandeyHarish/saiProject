@@ -23,3 +23,22 @@ var mnav=document.getElementById('mobnav');
                     mnavc.style.display = "none";
                 }
             }
+
+
+            // owl caurosel js
+            $('.owl-carousel').owlCarousel({
+                items:1,
+                margin:10,
+                autoHeight:true,
+                autoplay:true,
+                loop:true,
+                autoplayTimeout:5000,
+                dots:false,
+                autoplayHoverPause:true,
+            })
+                        $('.play').on('click',function(){
+                            owl.trigger('play.owl.autoplay',[1000])
+                        })
+                        $('.stop').on('click',function(){
+                            owl.trigger('stop.owl.autoplay')
+                        })
