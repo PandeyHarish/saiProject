@@ -873,6 +873,10 @@ video {
   .sm\:h-96 {
     height: 24rem;
   }
+
+  .sm\:w-3\/5 {
+    width: 60%;
+  }
 }
 
 @media (min-width: 768px) {
