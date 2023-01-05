@@ -904,6 +904,11 @@ video {
   color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 
+.bg-\[\#322c6b\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(50 44 107 / var(--tw-bg-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:mx-9 {
     margin-left: 2.25rem;
