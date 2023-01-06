@@ -729,21 +729,6 @@ video {
   width: auto;
 }
 
-.w-\[\] {
-  width: ;
-}
-
-.w-\[150\] {
-  width: 150;
-}
-
-.w-\[15\] {
-  width: 15;
-}
-
-.w-\[150\%\] {
-  width: 150%;
-}
 
 .cursor-pointer {
   cursor: pointer;
@@ -1112,6 +1097,10 @@ video {
 .hover\:text-orange-500:hover {
   --tw-text-opacity: 1;
   color: rgb(249 115 22 / var(--tw-text-opacity));
+}
+
+.aspect{
+  aspect-ratio: 3/4;
 }
 
 @media (min-width: 640px) {
