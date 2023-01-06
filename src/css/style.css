@@ -643,6 +643,11 @@ video {
   margin-right: auto;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .ml-24 {
   margin-left: 6rem;
 }
@@ -985,6 +990,14 @@ video {
   padding-top: 1.25rem;
 }
 
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1281,6 +1294,14 @@ video {
 
   .md\:w-60 {
     width: 15rem;
+  }
+
+  .md\:w-7\/12 {
+    width: 58.333333%;
+  }
+
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:grid-cols-3 {
