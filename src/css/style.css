@@ -1065,6 +1065,11 @@ video {
   line-height: 1.25rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-extrabold {
   font-weight: 800;
 }
@@ -1239,6 +1244,10 @@ video {
     padding-right: 2.25rem;
   }
 
+  .sm\:pt-16 {
+    padding-top: 4rem;
+  }
+
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -1316,6 +1325,10 @@ video {
     background-image: none;
   }
 
+  .md\:p-20 {
+    padding: 5rem;
+  }
+
   .md\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
@@ -1329,6 +1342,10 @@ video {
   .md\:px-24 {
     padding-left: 6rem;
     padding-right: 6rem;
+  }
+
+  .md\:pt-20 {
+    padding-top: 5rem;
   }
 
   .md\:text-xl {
