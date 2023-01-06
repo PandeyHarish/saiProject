@@ -780,6 +780,7 @@ video {
   width: auto;
 }
 
+<<<<<<< HEAD
 .w-6\/12 {
   width: 50%;
 }
@@ -787,6 +788,8 @@ video {
 .w-7\/12 {
   width: 58.333333%;
 }
+=======
+>>>>>>> b885c60de9954e7f0769516546795da018ad85a5
 
 .cursor-pointer {
   cursor: pointer;
@@ -1155,6 +1158,10 @@ video {
   color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 
+.aspect{
+  aspect-ratio: 3/4;
+}
+
 @media (min-width: 640px) {
   .sm\:mx-9 {
     margin-left: 2.25rem;
@@ -1439,6 +1446,7 @@ video {
     line-height: 1.75rem;
   }
 }
+<<<<<<< HEAD
 
 @media (min-width: 1280px) {
   .xl\:h-full {
@@ -1454,3 +1462,5 @@ video {
     padding-bottom: 2.5rem;
   }
 }
+=======
+>>>>>>> b885c60de9954e7f0769516546795da018ad85a5
