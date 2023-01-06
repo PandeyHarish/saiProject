@@ -21,6 +21,8 @@ var mnav=document.getElementById('mobnav');
                     mnav.style.transition = '0.7s';
                     mnavo.style.display = "block";
                     mnavc.style.display = "none";
+                    edudrop.style.display='none'; 
+                    mediadrop.style.display='none';
                 }
             }
 
@@ -42,3 +44,32 @@ $('.owl-carousel').owlCarousel({
             $('.stop').on('click',function(){
                 owl.trigger('stop.owl.autoplay')
             })
+
+
+// education drop down
+
+var edudrop = document.getElementById('edudrop1');
+var off=edudrop.style.display='none';
+function edudropdown(){
+    if(off==off){
+        mediadrop.style.display='none';
+        edudrop.style.display='block';  
+    }
+    else{
+        edudrop.style.display='none';
+        console.log('hi')
+    }
+}
+
+// media drop down
+var mediadrop = document.getElementById('mediadrop1');
+var off=mediadrop.style.display='none';
+function mediadropdown(){
+    if(off==off){
+        edudrop.style.display='none'; 
+        mediadrop.style.display='block';
+    }
+    else{
+        mediadrop.style.display='none';
+    }
+}

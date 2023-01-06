@@ -1,0 +1,15 @@
+.edudrop{
+    display: none;
+}
+
+.education:hover .edudrop{
+    display: block;
+}
+
+.mediadrop{
+    display: none;
+}
+
+.media:hover .mediadrop{
+    display: block;
+}

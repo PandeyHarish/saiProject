@@ -61,11 +61,22 @@
                         </li> -->
                         <li class="p-1" ><a href="index.html" onclick="mobNav()" class="text-lg ">Home</a> </li>
                         <li class="p-1"><a href="whoissai.html" onclick="mobNav()" class="text-lg ">Who is Sai</a></li>
-                        <li class="p-1"><a href="#" onclick="mobNav()" class="text-lg ">Education</a></li>
-                        <li class="p-1"><a href="#" onclick="mobNav()" class="text-lg ">Media</a></li>
-                        <li class="p-1"><a href="#" onclick="mobNav()" class="text-lg ">Recent Activities</a></li>
-                        <li class="p-1"><a href="#" onclick="mobNav()" class="text-lg ">Gallery</a></li>
-                        <li class="p-1"><a href="#" onclick="mobNav()" class="text-lg ">Contact Us</a></li>
+                        <li class="p-1" onclick="edudropdown()"><a href="#" class="text-lg  relative" >Education <i class="ri-arrow-right-s-line inline-block align-middle"></i></a>
+                            <ul class="absolute ml-24 w-[45%] text-left text-base bg-[#322c6b] p-2 rounded-md z-10" id="edudrop1">
+                                <li class="border-b-2 py-4 cursor-pointer" ><a href="ssse.html">Sri Satya Sai Education</a></li>
+                                <li class="border-b-2 py-4 cursor-pointer" ><a href="ssss.html">Sri Satya Sai School</a></li>
+                                <li class="border-b-2 py-4 cursor-pointer" ><a href="sssehv.html">Sri Satya Sai Education in Human Values</a></li>
+                            </ul>
+                        </li>
+                        <li class="p-1"><a href="#"  class="text-lg " onclick="mediadropdown()">Media <i class="ri-arrow-right-s-line inline-block align-middle"></i></a>
+                            <ul class="absolute ml-24 w-[45%] text-left text-base bg-[#322c6b] p-2 rounded-md z-10" id="mediadrop1">
+                                <li class="border-b-2 py-4 cursor-pointer" ><a href="ssrp.html">Sai Sumangal Radio Program</a></li>
+                                <li class="border-b-2 py-4 cursor-pointer" ><a href="https://www.facebook.com/SSSSONEPAL" target="_blank">Facebook</a></li>
+                            </ul>
+                        </li>
+                        <li class="p-1"><a href="recentactvities.html" onclick="mobNav()" class="text-lg ">Recent Activities</a></li>
+                        <li class="p-1"><a href="gallery.html" onclick="mobNav()" class="text-lg ">Gallery</a></li>
+                        <li class="p-1"><a href="contactus.html" onclick="mobNav()" class="text-lg ">Contact Us</a></li>
                     </ul>
                 </div>
                 
@@ -74,15 +85,26 @@
 
         <!-- desktop nav -->
         <div class="hidden sm:block z-10 fixed top-0 left-0 right-0">
-            <ul class="bg-[#322c6b]  p-1 text-right text-white py-2 px-3 text-2xl">
+            <ul class="bg-[#322c6b] bg-opacity-90 p-1 text-right text-white py-2 px-3 text-2xl">
+
                 <li class="p-1 inline hover:text-orange-600" ><a href="index.html"  class="text-lg ">Home</a> </li>
                 <li class="p-1 inline hover:text-orange-600"><a href="whoissai.html"  class="text-lg ">Who is Sai</a></li>
-                <li class="p-1 inline hover:text-orange-600"><a href="#"  class="text-lg ">Education</a></li>
-                <li class="p-1 inline hover:text-orange-600"><a href="#"  class="text-lg ">Media</a></li>
-                <li class="p-1 inline hover:text-orange-600"><a href="#"  class="text-lg ">Recent Activities</a></li>
-                <li class="p-1 inline hover:text-orange-600"><a href="#"  class="text-lg ">Gallery</a></li>
-                <li class="p-1 inline hover:text-orange-600"><a href="#"  class="text-lg ">Contact Us</a></li>
-                
+                <li class="p-1 inline education "><a href="#"  class="text-lg relative" >Education <i class="ri-arrow-down-s-line inline-block align-middle"></i></a>
+                <ul class="absolute edudrop text-left w-56 text-base bg-[#322c6b] p-2 rounded-md right-80" >
+                    <li class="hover:text-orange-600 border-b-2 py-4 cursor-pointer"><a href="ssse.html">Sri Satya Sai Education</a></li>
+                    <li class="hover:text-orange-600 border-b-2 py-4 cursor-pointer"><a href="ssss.html">Sri Satya Sai School</a></li>
+                    <li class="hover:text-orange-600 border-b-2 py-4 cursor-pointer"><a href="sssehv.html">Sri Satya Sai Education in Human Values</a></li>
+                </ul>
+                </li>
+                <li class="p-1 inline hover:text-orange-600"><a href="recentactvities.html"  class="text-lg ">Recent Activities</a></li>
+                <li class="p-1 inline media"><a href="#"  class="text-lg ">Media <i class="ri-arrow-down-s-line inline-block align-middle "></i></a>
+                    <ul class="absolute mediadrop text-left w-56 text-base bg-[#322c6b] p-2 rounded-md right-32">
+                        <li class="hover:text-orange-600 border-b-2 py-3 cursor-pointer"><a href="ssrp.html">Sai Sumangal Radio Program</a></li>
+                        <li class="hover:text-orange-600 border-b-2 py-3 cursor-pointer"><a href="https://www.facebook.com/SSSSONEPAL" target="_blank">Facebook</a></li>
+                    </ul>
+                </li>
+                <li class="p-1 inline hover:text-orange-600"><a href="gallery.html"  class="text-lg ">Gallery</a></li>
+                <li class="p-1 inline hover:text-orange-600"><a href="contactus.html"  class="text-lg ">Contact Us</a></li>
             </ul>
         </div>
     </section>
