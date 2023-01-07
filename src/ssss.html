@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,6 +28,10 @@
      <!-- owl caurosel -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fancybox CSS-->
+    <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
 
     <!-- wow js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -111,7 +115,7 @@
 
     <!-- ssssbody -->
     <!-- header image  -->
-    <div class="text-white mb-32">
+    <div class="text-white mb-32" id='top'>
         <img src="images/543.png" alt="picture of sri sai baba" srcset="" class="relative aspect-video">
         <div class="text-center relative -mt-24 sm:-mt-42 md:-mt-56">
                 <h1 class=" font-bold text-xl sm:text-2xl md:text-3xl ">
@@ -137,10 +141,18 @@
                 The Sri Sathya Sai Shiksha Sadan was established in 1996. As of March 2015, it enrolls a total of 461 students, of which 378 are residential. Of the total number of students, the gender ratio is 38.4 percent girls and 61.6 percent boys.
             </p>
             <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-1">
-                <img src="images/schools/s1_04.jpg" alt="sri satya sai schools in nepal" class="sm:h-32 rounded-md">
-                <img src="images/schools/s1_03.jpg" alt="sri satya sai schools in nepal" class="sm:h-32 rounded-md">
-                <img src="images/schools/s1_02.jpg" alt="sri satya sai schools in nepal" class="sm:h-32 rounded-md">
-                <img src="images/schools/s1_01.jpg" alt="sri satya sai schools in nepal" class="sm:h-32 rounded-md">
+                <a data-fancybox="gallery" href="images/schools/s1_04.jpg">
+                    <img src="images/schools/s1_04.jpg" alt="sri satya sai schools in nepal" class="sm:h-32 rounded-md">
+                </a>
+                <a data-fancybox="gallery" href="images/schools/s1_03.jpg">
+                    <img src="images/schools/s1_03.jpg" alt="sri satya sai schools in nepal" class="sm:h-32 rounded-md">
+                </a>
+                <a data-fancybox="gallery" href="images/schools/s1_02.jpg">
+                    <img src="images/schools/s1_02.jpg" alt="sri satya sai schools in nepal" class="sm:h-32 rounded-md">
+                </a>
+                <a data-fancybox="gallery" href="images/schools/s1_01.jpg">
+                    <img src="images/schools/s1_01.jpg" alt="sri satya sai schools in nepal" class="sm:h-32 rounded-md">
+                </a>
             </div>
             <p class="">
                 The team consists of thirty-two teaching faculties and twenty-five administrative staffs. Contact numbers are +977-1-5110208, 5110195, 5110163; Mobile: 9841211309; Email: sai@shiksha.wlink.com.np
@@ -152,10 +164,21 @@
                 The Sri Sathya Sai Vidyashram was established in 2002. It currently enrolls 255 students. The teaching faculty consists of nineteen teachers (ten female and nine male), all of whom have received training in SSSEHV. In addition, the school also employs seven other staff members to assist in the general administration and management of the school. Contact numbers are +977-61-533666; Mobile: 9856027115; Email: shreesatyasaivillage@gmail.com
             </p>
             <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-1">
-                <img src="images/schools/s2_04.jpg" alt="sri satya sai schools in nepal" class="sm:h-32 rounded-md">
-                <img src="images/schools/s2_03.jpg" alt="sri satya sai schools in nepal" class="sm:h-32 rounded-md">
-                <img src="images/schools/s2_02.jpg" alt="sri satya sai schools in nepal" class="sm:h-32 rounded-md">
-                <img src="images/schools/s2_01.jpg" alt="sri satya sai schools in nepal" class="sm:h-32 rounded-md">
+                <a data-fancybox="gallery2" href="images/schools/s2_04.jpg">
+                    <img src="images/schools/s2_04.jpg" alt="sri satya sai schools in nepal" class="sm:h-32 rounded-md">
+                </a>
+
+                <a data-fancybox="gallery2" href="images/schools/s2_03.jpg">
+                    <img src="images/schools/s2_03.jpg" alt="sri satya sai schools in nepal" class="sm:h-32 rounded-md">
+                </a>
+
+                <a data-fancybox="gallery2" href="images/schools/s2_02.jpg">
+                    <img src="images/schools/s2_02.jpg" alt="sri satya sai schools in nepal" class="sm:h-32 rounded-md">
+                </a>
+
+                <a data-fancybox="gallery2" href="images/schools/s2_01.jpg">
+                    <img src="images/schools/s2_01.jpg" alt="sri satya sai schools in nepal" class="sm:h-32 rounded-md">
+                </a>
             </div>
         </div>
     </section>
@@ -218,5 +241,9 @@
         </div>
     </section>
     <script src="js/main.js"></script>
+
+    <!-- Fancybox js -->
+	<script src="plugins/fancybox/jquery.fancybox.js"></script>
+	<script src="plugins/fancybox/jquery.fancybox.min.js"></script>
 </body>
 </html>

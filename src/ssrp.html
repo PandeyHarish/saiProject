@@ -1,5 +1,3 @@
-npx tailwindcss -i ./dist/input.css -o ./src/css/style.css --watch
-
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
@@ -30,6 +28,10 @@ npx tailwindcss -i ./dist/input.css -o ./src/css/style.css --watch
      <!-- owl caurosel -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fancybox CSS-->
+    <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
 
     <!-- wow js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -111,11 +113,33 @@ npx tailwindcss -i ./dist/input.css -o ./src/css/style.css --watch
         </div>
     </section>
 
-    <section id='top'>
+    <!-- ssssbody -->
+    <!-- header image  -->
+    <div class="text-white mb-32" id='top'>
+        <img src="images/543.png" alt="picture of sri sai baba" srcset="" class="relative aspect-video">
+        <div class="text-center relative -mt-24 sm:-mt-42 md:-mt-56">
+                <h1 class=" font-bold text-xl sm:text-2xl md:text-4xl ">
+                    Sai Sumangal Radio Program
+                </h1>
+                <a href="index.html" class="hover:text-orange-600 text-sm sm:text-base ">Home</a> | <p class="inline-block text-sm sm:text-base ">Sai Sumangal Radio Program</p>
+                
+        </div>
+    </div>
+    <!-- body texts -->
+    <section class="mt-36 sm:mt-44 mb-5 sm:mb-10 md:mb-20">
+        <div class="space-y-4 mx-8 text-justify sm:mx-24 md:mx-32 text-gray-500">
+            <h1 class="text-[#322c6b] font-bold text-xl sm:text-2xl md:text-3xl">Sai Sumangal Radio Program</h1>
 
+            <p class="text-gray-500 lg:text-lg">
+                Sai Sumangal is a radio program broadcasted on radio stations across Nepal. Currently 39 radio stations are broadcasting the message of Bhagwan Sri Sathya Sai Baba. It is produced by the audio-visual unit of the SSSON. Sai Sumangnal was initiated as an offering at the divine lotus feet of Bhagawan Sri Sathya Sai Baba on the occasion of Swami's eighty-third birthday.
+            </p>
+
+            <p class="text-gray-500 lg:text-lg">
+                Sai Sumangal is based on a magazine format, with thirty minutes long production divided into various segments. These range from Bhajans to “Jigyasa - responses to questions received from listeners”, and from “Sai Avatar Gaatha - Bhagawan Sri SathyaSai Baba's Divine Life Story based on the text Sathyam Sivam Sundaram”, to narratives based on Bhagawan Baba's divine discourses.
+            </p>
+            
+        </div>
     </section>
-
-
   <!-- footer -->
     <section class="bg-[#322c6b]">
         <div class="grid md:grid-cols-3 mx-2 p-5 gap-10">
@@ -174,15 +198,18 @@ npx tailwindcss -i ./dist/input.css -o ./src/css/style.css --watch
             <p class="font-normal text-xs sm:text-sm md:text-base lg:text-lg">&copy; Sri Satya Sai Kendra Narayangarh | Designed by <a href="https://pandeyharish.github.io/portfolio/" class="text-yellow-500">Harish Pandey</a> & <a href="https://sandeepshrestha200.com.np" class="text-yellow-500">Sandeep Shrestha</a></p>
         </div>
     </section>
+        <!-- Go To Top Starts from Here -->
+    <div id="gototop" class="z-40 fixed bottom-6 right-6 md:bottom-14 md:right-14 text-2xl rounded-full bg-orange-600 hover:bg-orange-400 text-white pb-2 pt-3 cursor-pointer hidden">
 
-    <!-- Go To Top Starts from Here -->
-        <div id="gototop" class="z-40 fixed bottom-6 right-6 md:bottom-14 md:right-14 text-2xl rounded-full bg-orange-600 hover:bg-orange-400 text-white pb-2 pt-3 cursor-pointer hidden">
-
-            <a href="#top"><i class="ri-arrow-up-line px-4 py-4"></i></a>
-            
-        </div>
+        <a href="#top"><i class="ri-arrow-up-line px-4 py-4"></i></a>
+        
+    </div>
     <!-- Go To Top Ends Here -->
 
     <script src="js/main.js"></script>
+
+    <!-- Fancybox js -->
+	<script src="plugins/fancybox/jquery.fancybox.js"></script>
+	<script src="plugins/fancybox/jquery.fancybox.min.js"></script>
 </body>
 </html>
