@@ -73,3 +73,22 @@ function mediadropdown(){
         mediadrop.style.display='none';
     }
 }
+
+  // Go TO Top Starts From Here
+
+  var gototop = document.getElementById('gototop');
+  window.onscroll = function()
+  {
+      scrollFunction();
+  }
+  function scrollFunction(){
+      if(window.scrollY < 640)
+      {
+          gototop.classList.add('hidden');
+      }
+      else{
+          gototop.classList.remove('hidden');           
+      }
+  }
+
+// Go TO Top Ends Here
