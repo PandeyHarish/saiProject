@@ -1307,6 +1307,14 @@ video {
     margin-bottom: 5rem;
   }
 
+  .md\:-mt-5 {
+    margin-top: -1.25rem;
+  }
+
+  .md\:-mt-56 {
+    margin-top: -14rem;
+  }
+
   .md\:block {
     display: block;
   }
