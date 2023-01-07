@@ -928,6 +928,30 @@ video {
   background-image: url('../images/543.png');
 }
 
+.bg-\[url\(\'\.\.\/images\/\.png\'\)\] {
+  background-image: url('../images/.png');
+}
+
+.bg-\[url\(\'\.\.\/images\/\'\)\] {
+  background-image: url('../images/');
+}
+
+.bg-\[url\(\'\.\.\/images\/img\'\)\] {
+  background-image: url('../images/img');
+}
+
+.bg-\[url\(\'\.\.\/images\/img\.\'\)\] {
+  background-image: url('../images/img.');
+}
+
+.bg-\[url\(\'\.\.\/images\/img\.we\'\)\] {
+  background-image: url('../images/img.we');
+}
+
+.bg-\[url\(\'\.\.\/images\/img\.webp\'\)\] {
+  background-image: url('../images/img.webp');
+}
+
 .bg-fixed {
   background-attachment: fixed;
 }
