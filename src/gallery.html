@@ -116,8 +116,8 @@
     <!-- ssssbody -->
     <!-- header image  -->
     <div class="text-white mb-32">
-        <img src="images/543.png" alt="picture of sri sai baba" srcset="" class="relative aspect-video">
-        <div class="text-center relative -mt-24 sm:-mt-42 md:-mt-56">
+        <img src="images/400.png" alt="picture of sri sai baba" srcset="" class="relative aspect-video">
+        <div class="text-center -mt-24 sm:-mt-42 md:-mt-56">
                 <h1 class=" font-bold text-xl sm:text-2xl md:text-4xl ">
                     Gallery
                 </h1>
@@ -127,8 +127,24 @@
     </div>
     <!-- body texts -->
     <section class="mt-36 sm:mt-44 mb-5 sm:mb-10 md:mb-20">
-        <div class="space-y-4 mx-8 text-justify sm:mx-24 md:mx-32 text-gray-500">
-            <h1 class="text-[#322c6b] font-bold text-xl sm:text-2xl md:text-3xl">Gallery</h1>
+        <div class="space-y-10 mx-8 text-justify sm:mx-24 md:mx-32 text-gray-500">
+            <h1 class="text-[#322c6b] font-bold text-xl sm:text-2xl md:text-4xl py-2 sm:py-4 lg:py-6">Gallery</h1>
+
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-10" id="galleryimages">
+
+                <div class="rounded-xl hover:scale-105 duration-500 shadow-lg shadow-gray-500">
+                    <a data-fancybox="gallery" href="images/gallery/img (1).jpg">
+                        <img src="images/gallery/img (1).jpg" class="rounded-xl aspect-[4/3] object-center h-full" alt="img (1)">
+                    </a>
+                </div>
+
+                <div class="rounded-xl hover:scale-105 duration-500 shadow-lg shadow-gray-500">
+                    <a data-fancybox="gallery" href="images/gallery/img (2).jpg">
+                        <img src="images/gallery/img (2).jpg" class="rounded-xl aspect-[4/3] object-center h-full" alt="img (2)">
+                    </a>
+                </div>
+
+            </div>
 
             
             
@@ -201,11 +217,12 @@
     </div>
     <!-- Go To Top Ends Here -->
 
-    <script src="js/main.js"></script>
-    
-
     <!-- Fancybox js -->
 	<script src="plugins/fancybox/jquery.fancybox.js"></script>
 	<script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
 </body>
 </html>
