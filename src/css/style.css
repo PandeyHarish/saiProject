@@ -1642,6 +1642,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+
   .lg\:gap-8 {
     gap: 2rem;
   }
@@ -1697,6 +1701,11 @@ video {
 
   .lg\:text-\[2\.25rem\] {
     font-size: 2.25rem;
+  }
+
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
