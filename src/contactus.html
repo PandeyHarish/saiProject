@@ -29,6 +29,10 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- Fancybox CSS-->
+    <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+
     <!-- wow js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- animate css -->
@@ -74,7 +78,7 @@
                                 <li class="border-b-2 py-4 cursor-pointer" ><a href="https://www.facebook.com/SSSSONEPAL" target="_blank">Facebook</a></li>
                             </ul>
                         </li>
-                        <!-- <li class="p-1"><a href="recentactvities.html" onclick="mobNav()" class="text-lg ">Recent Activities</a></li> -->
+                        <li class="p-1"><a href="recentactvities.html" onclick="mobNav()" class="text-lg ">Recent Activities</a></li>
                         <li class="p-1"><a href="gallery.html" onclick="mobNav()" class="text-lg ">Gallery</a></li>
                         <li class="p-1"><a href="contactus.html" onclick="mobNav()" class="text-lg ">Contact Us</a></li>
                     </ul>
@@ -96,7 +100,7 @@
                     <li class="hover:text-orange-600 border-b-2 py-4 cursor-pointer"><a href="sssehv.html">Sri Satya Sai Education in Human Values</a></li>
                 </ul>
                 </li>
-                <!-- <li class="p-1 inline hover:text-orange-600"><a href="recentactvities.html"  class="text-lg ">Recent Activities</a></li> -->
+                <li class="p-1 inline hover:text-orange-600"><a href="recentactvities.html"  class="text-lg ">Recent Activities</a></li>
                 <li class="p-1 inline media"><a href="#"  class="text-lg ">Media <i class="ri-arrow-down-s-line inline-block align-middle "></i></a>
                     <ul class="absolute mediadrop text-left w-56 text-base bg-[#322c6b] p-2 rounded-md right-32">
                         <li class="hover:text-orange-600 border-b-2 py-3 cursor-pointer"><a href="ssrp.html">Sai Sumangal Radio Program</a></li>
@@ -109,92 +113,79 @@
         </div>
     </section>
 
-
-      <!-- header image -->
-        <div class="text-white" id='top'>
-            <img src="images/402.png" alt="picture of sri sai baba" srcset="" class="relative aspect-video w-full">
-            <div class="text-center relative -mt-24 sm:-mt-42 md:-mt-56">
-                    <h1 class=" font-bold text-xl sm:text-2xl md:text-3xl ">
-                        Sri Sathya Sai Education (SSSE)
-                    </h1>
-                    <a href="index.html" class="hover:text-orange-600 ">Home</a> | <p class="inline-block">Sri Sathya Sai Education (SSSE)</p>
-                    
-            </div>
+    <!-- ssssbody -->
+    <!-- header image  -->
+    <!-- <div class="text-white mb-32">
+        <img src="images/400.png" alt="picture of sri sai baba" srcset="" class="relative aspect-video">
+        <div class="text-center relative -mt-24 sm:-mt-42 md:-mt-56">
+                <h1 class=" font-bold text-xl sm:text-2xl md:text-4xl ">
+                    Contact Us
+                </h1>
+                <a href="index.html" class="hover:text-orange-600 text-sm sm:text-base ">Home</a> | <p class="inline-block text-sm sm:text-base ">Contact Us</p>
+                
         </div>
-        <section class="mt-52">
-            <div class="space-y-4 mx-8 text-justify sm:mx-24 md:mx-32 text-gray-500">
-                <h1 class="text-[#322c6b] font-bold text-xl sm:text-2xl md:text-3xl">Sri Sathya Sai Education (SSSE)</h1>
-                <p class=" text-base sm:text-lg md:text-xl ">
-                    <i class="font-extralight ">“Of all types of knowledge and education, spiritual education and spiritual knowledge is the highest and most superior one. Any education which is devoid of spirituality cannot be called education”</i> –Bhagwan Sri Sathya Sai Baba  
-                </p>
-                <h4 class="text-xl text-[#322c6b] font-bold">Why Bal Vikas?</h4>
-                <p class=" text-base sm:text-lg md:text-xl ">
-                    To draw out the goodness latent within the child; &nbsp; To develop the ability to discriminate between right and wrong; &nbsp; To enable the child to know himself; To help to manifest in daily life human values inherent in human beings. 
-                    <br><br>
-                    SSSE aims to develop the five aspects of a human personality in keeping with five universal human values. This is essential in the development of character.
-                    <br><br>
-                    The Table below depicts the relationship between the Five Human Values and Five aspects of human personality.
-                    <table class="border text-left p-2 border-black">
-                        <tr>
-                            <th>Five Human Values</th>&nbsp;
-                            <th>Five Domains  of human personality</th>
-                        </tr>
-                        <tr>
-                            <td>Truth (Sathya)</td>
-                            <td>Intellectual</td>
-                        </tr>
-                        <tr>
-                            <td>Right Conduct (Dharma)</td>
-                            <td>Physical</td>
-                        </tr>
-                        <tr>
-                            <td>Peace (Shanti)</td>
-                            <td>Emotional</td>
-                        </tr>
-                        <tr>
-                            <td>Love (Prema)</td>
-                            <td>Social</td>
-                        </tr>
-                        <tr>
-                            <td>Non-voilance (Ahimsa)</td>
-                            <td>Spiritual</td>
-                        </tr>
-                    </table>
-                </p>
-                <p class=" text-base sm:text-lg md:text-xl ">
-                    These values are explored both through interactive teaching methods as well as through contemplative practices. On the whole, these activities enable children to develop positive attitudes and raise their levels of self-awareness and creativity. The basic teaching techniques are as follows:
+    </div> -->
+    <!-- body texts -->
+    <section class="py-20">
+        <div class="space-y-10 mx-8 text-justify sm:mx-24 md:mx-32 ">
+            
+
+            <section id="contact" class="">
+
+
+                <div class="grid md:grid-cols-2 gap-10 lg:gap-8">
+
+                    <div class="rounded-lg p-2 lg:px-4 lg:py-2">
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.7939177842654!2d84.43159886882195!3d27.705994137425144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3994fb4e8e5ed507%3A0x53e087cbcfc5cb36!2sSatya%20Sai%20Center!5e0!3m2!1sen!2snp!4v1673284698890!5m2!1sen!2snp" style="border:0;" class="rounded-lg w-full aspect-square" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        
+                        
+                    </div>
+                  
+                    <div class="py-2 rounded-lg">
+
+                        <h2 class="text-4xl font-semibold mx-auto border-b-4 border-orange-500 text-[#322c6b] w-fit px-4 h-fit">Contact Us</h2>
+                        
+                        <div class="space-y-4 px-2 lg:px-16 py-4 sm:py-10">
+                
+                            <div class="rounded-xl py-2 sm:px-1 lg:px-4">
+                                <p class="text-sm lg:text-base w-full"><span class="w-2/5"><i class="ri-at-line align-middle sm:text-lg  p-2 bg-[#322c6b] text-white rounded-full"></i></span> <span class="w-3/5 text-right">saiyouthnarayangarh@gmail.com</span></p>
+                            </div>
+                
+                            <div class="rounded-xl py-2 sm:px-1 lg:px-4">
+                                <p class="text-sm lg:text-base w-full"><span class="w-2/5"><i class="ri-phone-fill align-middle sm:text-lg  p-2 bg-[#322c6b] text-white rounded-full"></i> </span> <span class="w-3/5 text-right"> 056-521095</span></p>
+                            </div>
+                
+                            <div class="rounded-xl py-2 sm:px-1 lg:px-4">
+                                <p class="text-sm lg:text-base w-full"><span class="w-2/5"><i class="ri-map-pin-fill align-middle sm:text-lg  p-2 bg-[#322c6b] text-white rounded-full"></i> </span> <span class="w-3/5 text-right">Prasanti Marga, Narayangarh, Chitwan, Nepal</span></p>
+                            </div>
+                
+                            <div class="rounded-xl flex justify-between py-2 pr-0 md:pr-32 text-4xl md:text-4xl w-1/2 text-[#322c6b]">
+                                <p class="cursor-pointer duration-700 hover:text-orange-500"><a href="https://www.facebook.com/groups/saiyouthnarayangarh" target="_blank"><i class="ri-facebook-circle-fill align-middle p-2 rounded-full"></i></a></p>
+                                <p class="cursor-pointer duration-700 hover:text-orange-500"><a href="https://www.instagram.com/sai_youth_narayangarh/" target="_blank"><i class="ri-instagram-line align-middle p-2 rounded-full"></i></a></p>
+                                <p class="cursor-pointer duration-700 hover:text-orange-500"><a href="https://www.youtube.com/c/SaiyouthNarayangarh" target="_blank"><i class="ri-youtube-fill align-middle p-2 rounded-full"></i></a></p>
+                                <p class="cursor-pointer duration-700 hover:text-orange-500"><a href="mailto:saiyouthnarayangarh@gmail.com" target="_blank"><i class="ri-mail-fill align-middle p-2 rounded-full"></i></a></p>
+                            </div>
+
+                            <div class="rounded-xl py-2 sm:px-1 lg:px-4 hidden lg:block space-y-4">
+                                <img src="images/sssct-logo-mini.png" class="w-14 mx-auto" alt="">
+                                <p class="text-[#322c6b] text-2xl font-semibold w-fit mx-auto">ॐ श्री साई राम</p>
+                                <img src="images/sssct-logo-mini.png" class="w-14 mx-auto" alt="">
+                            </div>
+                
+                
+                        </div>
+                
+                    </div>
                    
-                    <ol class="list-decimal pl-10 text-sm">
-                        <li>Silent Sitting/Meditation</li>
-                        <li>Prayer/Quotations</li>
-                        <li>Story Telling</li>
-                        <li>Group Singing</li>
-                        <li>Group Activities</li>
-                    </ol>
+                </div>
+                
+              </section>
 
-                    This program, initiated by Bhagavan Sri Sathya Sai Baba in 1969 was implemented first time in Nepal in mid seventies. Bal Vikas classes are held in such a way that they do not demand excessive time out of the regular academic schedules of the school. These classes are held once a week, mostly Saturday (weekend) morning.
-                    <br><br>
-                    Other annual educational activities include:
-
-                    <ol class="list-[lower-alpha]">
-                        <li> Scholarships for talented and needy students;</li>
-                        <li> Educational tours;</li>
-                        <li> Parenting;</li>
-                        <li> Cultural programs;</li>
-                        <li> Participation in sporting and extra-curricular activities at the regional and national levels;                           
-                        </li>
-                        <li> Rallies by Bal Vikas students;</li>
-                        <li> Service Activities by Bal Vikas students and</li>
-                        <li> Bal Vikas teachers’ training.</li>
-                    </ol>
-                </p>
-
-            </div>
-        </section>
-
-
-    <!-- footer -->
-    <section class="bg-[#322c6b]">
+        </div>
+    </section>
+  <!-- footer -->
+    <section class="bg-[#322c6b]" id='top'>
         <div class="grid md:grid-cols-3 mx-2 p-5 gap-10">
 
             <!-- logo and social media -->
@@ -212,6 +203,7 @@
                     </a>
                 </div>
             </div>
+
 
             <!-- quick links -->
             <div class="text-white mb-5">
@@ -250,7 +242,8 @@
             <p class="font-normal text-xs sm:text-sm md:text-base lg:text-lg">&copy; Sri Satya Sai Kendra Narayangarh | Designed by <a href="https://pandeyharish.github.io/portfolio/" class="text-yellow-500">Harish Pandey</a> & <a href="https://sandeepshrestha200.com.np" class="text-yellow-500">Sandeep Shrestha</a></p>
         </div>
     </section>
-        <!-- Go To Top Starts from Here -->
+
+    <!-- Go To Top Starts from Here -->
     <div id="gototop" class="z-40 fixed bottom-6 right-6 md:bottom-14 md:right-14 text-2xl rounded-full bg-orange-600 hover:bg-orange-400 text-white pb-2 pt-3 cursor-pointer hidden">
 
         <a href="#top"><i class="ri-arrow-up-line px-4 py-4"></i></a>
@@ -258,6 +251,12 @@
     </div>
     <!-- Go To Top Ends Here -->
 
+    <!-- Fancybox js -->
+	<script src="plugins/fancybox/jquery.fancybox.js"></script>
+	<script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+
+    <!-- Custom JS -->
     <script src="js/main.js"></script>
+    <!-- <script src="js/gallery.js"></script> -->
 </body>
 </html>
